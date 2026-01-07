@@ -25,6 +25,8 @@ export default function ExampleInsight() {
                   fill
                   className="object-cover"
                   sizes="45vw"
+                  loading="lazy"
+                  quality={85}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
               </div>
@@ -39,6 +41,8 @@ export default function ExampleInsight() {
                   fill
                   className="object-cover"
                   sizes="100vw"
+                  loading="lazy"
+                  quality={85}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
               </div>
