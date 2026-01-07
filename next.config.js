@@ -10,9 +10,6 @@ const nextConfig = {
   },
   compress: true,
   poweredByHeader: false,
-  experimental: {
-    optimizeCss: true,
-  },
   // Enable static page generation optimizations
   swcMinify: true,
 };
