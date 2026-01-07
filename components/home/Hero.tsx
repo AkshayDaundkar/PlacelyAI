@@ -7,14 +7,14 @@ export default function Hero() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-4xl mx-auto">
           {/* Small oval bubble */}
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-white/80 backdrop-blur-sm border border-neutral-200/60 rounded-full mb-6 shadow-soft">
-            <span className="px-2 py-0.5 bg-blue-100 text-blue-700 text-xs font-semibold rounded-full uppercase tracking-wide">
+          <div className="inline-flex items-center gap-2 px-3 py-1.5 sm:px-4 bg-white/80 backdrop-blur-sm border border-neutral-200/60 rounded-full mb-6 shadow-soft whitespace-nowrap overflow-hidden">
+            <span className="px-2 py-0.5 bg-blue-100 text-blue-700 text-[10px] sm:text-xs font-semibold rounded-full uppercase tracking-wide flex-shrink-0">
               NEW
             </span>
-            <span className="text-sm font-medium text-neutral-700">
-              Helping you understand places, not just prices
+            <span className="text-[10px] sm:text-xs font-medium text-neutral-700 whitespace-nowrap">
+              Helping you understand places, not just prices.
             </span>
-            <ArrowRight className="w-4 h-4 text-neutral-600" />
+            <ArrowRight className="w-3 h-3 sm:w-4 sm:h-4 text-neutral-600 flex-shrink-0" />
           </div>
           
           <h1 className="text-5xl md:text-6xl lg:text-6xl font-bold text-neutral-900 mb-6 text-balance leading-tight tracking-tight">
