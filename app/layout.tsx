@@ -6,7 +6,7 @@ import Footer from "@/components/layout/Footer";
 export const metadata: Metadata = {
   title: "PlacelyAI - Make Confident Real Estate Decisions",
   description:
-    "Placely provides unbiased, area-level intelligence to help you understand where to buy — and why.",
+    "Placely provides unbiased, area-level intelligence to help you understand where to buy and why.",
 };
 
 export default function RootLayout({

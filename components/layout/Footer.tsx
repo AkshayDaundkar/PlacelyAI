@@ -14,8 +14,7 @@ export default function Footer() {
             </Link>
             <p className="text-sm text-neutral-600 max-w-md">
               Make confident real-estate decisions before you invest. Unbiased,
-              area-level intelligence to help you understand where to buy — and
-              why.
+              area-level intelligence to help you understand where to buy and why.
             </p>
           </div>
 

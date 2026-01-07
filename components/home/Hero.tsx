@@ -22,7 +22,7 @@ export default function Hero() {
           </h1>
           <p className="text-xl md:text-2xl text-neutral-600 mb-10 text-balance max-w-3xl mx-auto font-normal leading-relaxed">
             Placely provides unbiased, area-level intelligence to help you
-            understand where to buy — and why.
+            understand where to buy and why.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
