@@ -78,7 +78,15 @@ export default function Footer() {
                   href="/contact"
                   className="text-sm text-neutral-600 hover:text-neutral-900 transition-colors"
                 >
-                  Contact
+                Akshay Daundkar 
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/contact"
+                  className="text-sm text-neutral-600 hover:text-neutral-900 transition-colors"
+                >
+                 +1(682) 552-9285
                 </Link>
               </li>
             </ul>

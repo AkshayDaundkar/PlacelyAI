@@ -150,7 +150,7 @@ export default function HowItWorksSection() {
                       
                       <div className="relative z-10">
                         {/* Icon */}
-                        <div className={`w-14 h-14 ${step.iconBg} rounded-xl flex items-center justify-center mb-6 transition-all duration-300 group-hover:scale-110`}>
+                        <div className={`w-14 h-14 ${step.iconBg} rounded-xl flex items-center justify-center mb-6 transition-all duration-300 group-hover:scale-110 group-hover:shadow-lg`}>
                           <step.icon className={`w-7 h-7 ${step.iconColor} transition-transform duration-300`} />
                         </div>
                         

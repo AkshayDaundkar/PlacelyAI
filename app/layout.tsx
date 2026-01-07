@@ -23,7 +23,7 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="antialiased bg-textured text-neutral-900">
+      <body className="antialiased bg-textured text-neutral-900" suppressHydrationWarning>
         <div className="w-full min-h-screen">
           <Header />
           <main className="w-full">{children}</main>
